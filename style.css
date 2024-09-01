@@ -4,44 +4,48 @@
   box-sizing: border-box;
 }
 
-div {
-  width: 70%;
-  margin: auto;
-}
-
 .content {
-  width: 100%;
   margin-top: 2%;
 }
 
-h1 {
-  color: black;
-  background-color: aliceblue;
-  border: 1px solid brown;
-  margin: 20px 15px 20px 15px;
-  padding: 1px;
-  position: sticky;
-  top: 20px;
+.wrapper {
+  width: 80%;
+  margin: auto;
 }
 
-h2 {
-  color: rgb(184, 14, 14);
-  border: 1px double;
-  margin-top: 25px;
-  margin-bottom: 25px;
+header img {
+  width: 60px;
+  float: left;
+  margin: 1%;
 }
 
-p {
-  border: 1px solid black;
-  padding: 5px;
+header h1 {
+  line-height: 65px;
 }
 
-img {
-  border: 1px dashed;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 100px;
-  padding: 1px;
+nav {
+  clear: both;
+}
+
+section {
+  margin-top: 2%;
+}
+
+section img {
+  margin-top: 1%;
+}
+
+section p {
+  margin-top: 2%;
+}
+
+section ol {
+  margin-top: 10px;
+}
+
+footer {
+  margin: 3%;
+  text-align: center;
 }
 
 #paragraf {
@@ -78,13 +82,13 @@ ul {
   list-style: none;
   margin: 0;
   position: relative;
-  padding-left: 0;
+  padding-left: 0px;
 }
 
 ul li {
   color: #fff;
   background: darkorange;
-  border: 3px blue;
+  border: 3px;
   display: inline-block;
   position: relative;
   padding: 10px;
