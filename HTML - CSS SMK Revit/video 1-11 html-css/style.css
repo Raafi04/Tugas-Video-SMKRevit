@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  margin-top: 2%;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+header img {
+  width: 60px;
+  float: left;
+  margin: 1%;
+}
+
+header h1 {
+  line-height: 65px;
+}
+
+nav {
+  clear: both;
+}
+
+section {
+  margin-top: 2%;
+}
+
+section img {
+  margin-top: 1%;
+}
+
+section p {
+  margin-top: 2%;
+}
+
+section ol {
+  margin-top: 10px;
+}
+
+footer {
+  margin: 3%;
+  text-align: center;
+}
+
+#paragraf {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.huruf {
+  font-size: 2 rem;
+}
+
+.huruf-tebal {
+  font-weight: bold;
+}
+
+.warna {
+  background-color: aqua;
+}
+
+.bentuk {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: monospace;
+}
+
+ul {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: darkorange;
+  list-style: none;
+  margin: 0;
+  position: relative;
+  padding-left: 0px;
+}
+
+ul li {
+  color: #fff;
+  background: darkorange;
+  border: 3px;
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.3ms;
+}
+
+ul li a {
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+ul li:hover {
+  background: red;
+  cursor: pointer;
+}
+
+ul li ul {
+  background: orange;
+  visibility: hidden;
+  position: absolute;
+  margin-top: 0.5rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: lightblue;
+  }
+}
