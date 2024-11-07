@@ -155,7 +155,6 @@
 .product {
   display: block;
   gap: 20px;
-
 }
 
 .product-content {
@@ -188,5 +187,41 @@
 
   .image img {
     width: 320px;
+  }
+}
+
+/* informasi */
+
+.info {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.info-content {
+  display: flex;
+  align-items: center;
+}
+
+.icon img {
+  display: block;
+}
+
+.info-isi h2 {
+  font-size: 17px;
+}
+
+.info-isi p {
+  font-size: 13px;
+}
+
+@media (min-width:560px) {
+  .info {
+    width: 1300px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
   }
 }
