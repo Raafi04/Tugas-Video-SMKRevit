@@ -291,3 +291,77 @@
     margin-left: -296px;
   }
 }
+
+/* footer */
+
+footer {
+  margin-bottom: 100px;
+  background-color: #363738;
+  color: white;
+  display: flex;
+  padding-top: 5px;
+}
+
+.logo-bank img {
+  width: 70px;
+}
+
+.identitas {
+  flex: 1;
+}
+
+.sitemap {
+  flex: 1;
+  list-style: none;
+}
+
+.sitemap li {
+  padding-top: 10px;
+}
+
+.sitemap li a {
+  text-decoration: none;
+  color: white;
+}
+
+.payment {
+  flex: 1;
+}
+
+.sitemap h2,
+.identitas h2 {
+  font-size: 14px;
+}
+
+.identitas p {
+  font-size: 12px;
+}
+
+.sitemap a {
+  font-size: 12px;
+}
+
+.bank p {
+  font-size: 10px;
+}
+
+.bank h2 {
+  font-size: 12px;
+}
+
+.bank {
+  padding-bottom: 10px;
+}
+
+@media (min-width: 560px) {
+  footer {
+    width: 1535px;
+    margin: auto;
+    padding-top: 5px;
+  }
+
+  .sitemap h2,
+  .identitas h2 {
+    font-size: 20px;
+  }
+}
